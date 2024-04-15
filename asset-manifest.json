@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/web-component/static/js/main.8800cb9e.js",
+    "main.js": "/web-component/static/js/main.c80e4ce6.js",
     "index.html": "/web-component/index.html",
-    "main.8800cb9e.js.map": "/web-component/static/js/main.8800cb9e.js.map"
+    "main.c80e4ce6.js.map": "/web-component/static/js/main.c80e4ce6.js.map"
   },
   "entrypoints": [
-    "static/js/main.8800cb9e.js"
+    "static/js/main.c80e4ce6.js"
   ]
 }
