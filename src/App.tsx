@@ -1,7 +1,17 @@
-const HelloApp: React.FC<{
-  name: string;
-}> = ({name}) => {
-  return <h1>Hello, {name}!</h1>;
-};
+import { Box } from "@mui/material";
+import Checklist from "./components/checklist/Checklist";
 
-export default HelloApp;
+function App() {
+  return (
+    <Box display="flex" flexDirection="column" height="100%">
+      <Box p={4} fontSize="2rem">
+        Checklist
+      </Box>
+      <Box flex="1 1" p={4}>
+        <Checklist />
+      </Box>
+    </Box>
+  );
+}
+
+export default App;
